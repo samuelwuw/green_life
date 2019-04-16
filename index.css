@@ -1,0 +1,110 @@
+body{
+	background-image: url(images/fundo.jpg); 
+    margin:0;
+    padding:0;
+}
+header{
+	text-align: center;
+	background-image: url("images/fundo1header.jpg") ;
+	background-repeat: no-repeat;
+	background-position: center top; 
+	width:85.4pc;
+	height:20pc;
+    margin:0;
+}
+nav.nav1{
+    text-align: left;
+    margin-left: 50px;
+}
+form{
+    margin-left: 63pc;
+}
+img#logoface{
+	text-align: left;
+	width: 42px;
+	height: 42px;
+}
+img#logoinsta{
+	text-align: left;
+	width: 42px;
+	height: 42px;
+}
+img#logo1{
+	width: 480px;
+	height: 200px;
+}
+.navbar{
+    text-align: center;
+    background-color: rgb(0, 90, 0);
+}
+.dropbtn{
+    background-color: rgb(0, 90, 0); /* Green */
+    padding: 15px 40px;
+    border: none;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+}
+.dropbtn:hover{
+    cursor: pointer;
+    background-color: rgb(0, 150, 0);
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+.dropbtn a{
+    text-decoration: none;
+    color: white;
+} 
+.dropdown{
+    display: inline-block;
+    position: relative;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 50px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a{
+    color: black;
+    border-bottom: 1px solid white;;
+    padding:12px 16px;
+    text-decoration: none;
+    display:block;
+}
+.dropdown-content a:hover{
+                background-color: rgb(0, 200, 0);
+                color: white;
+                border-color: rgb(0, 150, 0);
+}
+.dropdown:hover .dropdown-content{
+    display:block;
+}
+.dropdown:hover .dropbtn{
+    transition-duration: 0.4s;
+}
+section.pictures{
+    margin-top:6.5px;
+}
+#fig{
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 5px;
+    text-align: center;
+}
+img.i2{
+	width: 316px;
+	height: 170px;
+    margin-top: 18px;
+    margin-left: 5px;
+    border-radius: 8px;
+    border: 2px solid black;
+}
+footer{
+	text-indent: 2em;
+    float: left;
+    width: 100%;
+    color: black;
+}
